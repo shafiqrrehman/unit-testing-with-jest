@@ -1,0 +1,22 @@
+{
+  "name": "unit-testing-with-jest",
+  "version": "1.0.0",
+  "description": "Complete and easy to set-up JavaScript testing solution. Works out of the box for any React project.",
+  "main": "generate-password.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "unit-testing-with-jest"
+  },
+  "keywords": [
+    "unit",
+    "testing"
+  ],
+  "author": "Shafiq ur Rehman <shafiq.12@live.com>",
+  "license": "ISC"
+}
