@@ -2,12 +2,13 @@
   "name": "unit-testing-with-jest",
   "version": "1.0.0",
   "description": "Complete and easy to set-up JavaScript testing solution. Works out of the box for any React project.",
-  "main": "generate-password.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node -e \"console.log(require('./generate-password.js')())\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
     "testing"
   ],
   "author": "Shafiq ur Rehman <shafiq.12@live.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^13.2.3"
+  }
 }
